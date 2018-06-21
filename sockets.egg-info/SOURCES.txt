@@ -1,0 +1,13 @@
+README.md
+setup.py
+sockets/__init__.py
+sockets.egg-info/PKG-INFO
+sockets.egg-info/SOURCES.txt
+sockets.egg-info/dependency_links.txt
+sockets.egg-info/top_level.txt
+sockets/python2/__init__.py
+sockets/python2/client.py
+sockets/python2/server.py
+sockets/python3/__init__.py
+sockets/python3/client.py
+sockets/python3/server.py
