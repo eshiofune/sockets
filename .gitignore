@@ -1,0 +1,4 @@
+build/*
+dist/*
+sockets.egg-info/*
+setup.py
