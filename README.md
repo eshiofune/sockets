@@ -1,13 +1,25 @@
 # ABOUT
-    Python package which allows creation of simple servers and clients for communication with sockets. Supports both Python2 and Python3.
+    Python package for creating simple servers and clients for communication using UDP sockets.
+    Supports both Python2 and Python3.
+    
     Version: 1.0.0
 
+# INSTALLATION
+    Run the following command in your terminal:
+    pip install sockets
+
 # USAGE
-    - To create a server: Depending on your Python version, import the Server class from the appropriate server module, subclass it and override its act_on() method which describes what it should do when it receives a request, and returns a string response. Finally, create a Server object and call its listen() method.
+    - To create a server: Depending on your Python version, import the Server class from the
+    appropriate server module, subclass it and override its act_on() method which describes what
+    it should do when it receives a request, and returns a string response.
+    Finally, create a Server object and call its listen() method.
 
-    - To create a client: Depending on your Python version, import the Client class from the appropriate client module, create a Client object and call its poll_server() method. You can then make use of the response it returns as required.
+    - To create a client: Depending on your Python version, import the Client class from the
+    appropriate client module, create a Client object and call its poll_server() method.
+    You can then make use of the response it returns as required.
 
-    By default, a Python2 client will poll the default Python3 server while a Python3 client will poll the default Python2 server (unlike in the examples below).
+    By default, a Python2 client will poll the default Python3 server while a Python3
+    client will poll the default Python2 server (unlike in the examples below).
 
 # EXAMPLES
     # Test server with Python2:
