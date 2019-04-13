@@ -2,11 +2,13 @@
 Python package for creating simple servers and clients for communication using UDP sockets.
 Supports both Python2 and Python3.
 
-Version: 1.0.0
+### Version: 1.0.0
 
 # INSTALLATION
 Run the following command in your terminal:
+```
 pip install sockets
+```
 
 # USAGE
 - To create a server: Depending on your Python version, import the Server class from the
