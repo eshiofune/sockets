@@ -31,7 +31,7 @@ class MyServer(Server):
         # Do something with data (in bytes) and return a string.
         return data
 server = MyServer(listening_address=('127.0.0.1', 11112))
-server.listen()
+server.listen() # Blocks the thread
 ```
 
 ### Test client with Python2. Polls the Python2 server.
@@ -48,7 +48,7 @@ class MyServer(Server):
         # Do something with data (in bytes) and return a string.
         return data.decode()
 server = MyServer(listening_address=('127.0.0.1', 11113))
-server.listen()
+server.listen() # Blocks the thread
 ```
 
 ### Test client with Python3. Polls the Python3 server.
